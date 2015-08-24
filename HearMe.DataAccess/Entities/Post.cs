@@ -2,7 +2,7 @@
 
 namespace HearMe.DataAccess.Entities
 {
-    public class Post
+    public class Post : BaseEntity
     {
         public string Title { get; set; }
         public string Content { get; set; }

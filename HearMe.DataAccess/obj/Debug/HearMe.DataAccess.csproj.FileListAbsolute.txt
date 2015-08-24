@@ -1,0 +1,12 @@
+C:\Users\hieplam\Desktop\HearMe\HearMe.DataAccess\bin\Debug\HearMe.DataAccess.dll.config
+C:\Users\hieplam\Desktop\HearMe\HearMe.DataAccess\bin\Debug\HearMe.DataAccess.dll
+C:\Users\hieplam\Desktop\HearMe\HearMe.DataAccess\bin\Debug\HearMe.DataAccess.pdb
+C:\Users\hieplam\Desktop\HearMe\HearMe.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\hieplam\Desktop\HearMe\HearMe.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hieplam\Desktop\HearMe\HearMe.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\hieplam\Desktop\HearMe\HearMe.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hieplam\Desktop\HearMe\HearMe.DataAccess\obj\Debug\HearMe.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\hieplam\Desktop\HearMe\HearMe.DataAccess\obj\Debug\HearMe.DataAccess.dll
+C:\Users\hieplam\Desktop\HearMe\HearMe.DataAccess\obj\Debug\HearMe.DataAccess.pdb
+C:\Users\hieplam\Desktop\HearMe\HearMe.DataAccess\obj\Debug\HearMe.DataAccess.Migrations.TestBlogWithRequiredDependent.resources
+C:\Users\hieplam\Desktop\HearMe\HearMe.DataAccess\obj\Debug\HearMe.DataAccess.csproj.GenerateResource.Cache
