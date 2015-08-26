@@ -7,13 +7,13 @@ namespace HearMe.DataAccess.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class TestBlogWithRequiredDependent : IMigrationMetadata
+    public sealed partial class InitDatabase : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(TestBlogWithRequiredDependent));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(InitDatabase));
         
         string IMigrationMetadata.Id
         {
-            get { return "201508241545294_TestBlogWithRequiredDependent"; }
+            get { return "201508261426087_InitDatabase"; }
         }
         
         string IMigrationMetadata.Source

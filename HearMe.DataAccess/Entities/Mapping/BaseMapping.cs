@@ -3,14 +3,11 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace HearMe.DataAccess.Entities.Mapping
 {
-    internal class BaseMapping<T>:EntityTypeConfiguration<T> where T:BaseEntity
+    internal class BaseMapping<TId, TEntity> : EntityTypeConfiguration<TEntity> where TEntity : BaseEntity<TId> where TId : struct
     {
-        internal BaseMapping()
+        public BaseMapping()
         {
-            HasKey(x => x.Id)
-                .Property(x => x.Id)
-                .IsRequired()
-                .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
+            Property(x => x.Id).IsRequired().HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
         }
     }
 }

@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearMe.DataAccess", "HearMe.DataAccess\HearMe.DataAccess.csproj", "{71CABDAC-00F0-4BEE-96F1-28EB62B20763}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearMe.Service", "HearMe.Service\HearMe.Service.csproj", "{E7BD90B6-FB9C-4883-9144-EE07ABC0BE1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2C847D98-D452-4B59-9BF0-C2360A47CB67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F7EF4E14-278A-4BEC-91E9-CA062095FF9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +21,16 @@ Global
 		{71CABDAC-00F0-4BEE-96F1-28EB62B20763}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71CABDAC-00F0-4BEE-96F1-28EB62B20763}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71CABDAC-00F0-4BEE-96F1-28EB62B20763}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7BD90B6-FB9C-4883-9144-EE07ABC0BE1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7BD90B6-FB9C-4883-9144-EE07ABC0BE1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7BD90B6-FB9C-4883-9144-EE07ABC0BE1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7BD90B6-FB9C-4883-9144-EE07ABC0BE1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{71CABDAC-00F0-4BEE-96F1-28EB62B20763} = {2C847D98-D452-4B59-9BF0-C2360A47CB67}
+		{E7BD90B6-FB9C-4883-9144-EE07ABC0BE1C} = {2C847D98-D452-4B59-9BF0-C2360A47CB67}
 	EndGlobalSection
 EndGlobal

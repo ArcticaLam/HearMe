@@ -2,10 +2,10 @@
 
 namespace HearMe.DataAccess.Entities
 {
-    public abstract class BaseEntity
+    public abstract class BaseEntity<TId>
     {
-        public int Id { get; set; }
-        public DateTime CreatedOn { get; set; }
-        public DateTime UpdateOn { get; set; }
+        public TId Id { get; set; }
+        public DateTime? CreatedOn { get; set; }
+        public DateTime? UpdateOn { get; set; }
     }
 }

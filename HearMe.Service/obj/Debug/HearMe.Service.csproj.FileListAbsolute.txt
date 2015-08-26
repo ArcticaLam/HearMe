@@ -1,0 +1,5 @@
+C:\Users\hieplam\Desktop\HearMe\HearMe.Service\bin\Debug\HearMe.Service.dll
+C:\Users\hieplam\Desktop\HearMe\HearMe.Service\bin\Debug\HearMe.Service.pdb
+C:\Users\hieplam\Desktop\HearMe\HearMe.Service\obj\Debug\HearMe.Service.csprojResolveAssemblyReference.cache
+C:\Users\hieplam\Desktop\HearMe\HearMe.Service\obj\Debug\HearMe.Service.dll
+C:\Users\hieplam\Desktop\HearMe\HearMe.Service\obj\Debug\HearMe.Service.pdb

@@ -2,10 +2,11 @@
 
 namespace HearMe.DataAccess.Entities
 {
-    public class Category : BaseEntity
+    public class Category : HearMeBaseEntity
     {
-        public string Title { get; set; }
+        public string CategoryName { get; set; }
 
+        public virtual IList<Blog> Blogs { get; set; }
         public virtual IList<Post> Posts { get; set; }
     }
 }

@@ -1,20 +1,17 @@
+using System;
+using System.Data.Entity.Migrations;
 using HearMe.DataAccess.Entities;
 
 namespace HearMe.DataAccess.Migrations
 {
-    using System;
-    using System.Data.Entity;
-    using System.Data.Entity.Migrations;
-    using System.Linq;
-
-    internal sealed class Configuration : DbMigrationsConfiguration<HearMe.DataAccess.HearMeDataContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<HearMeDataContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(HearMe.DataAccess.HearMeDataContext context)
+        protected override void Seed(HearMeDataContext context)
         {
             //  This method will be called after migrating to the latest version.
 
@@ -28,6 +25,8 @@ namespace HearMe.DataAccess.Migrations
             //      new Person { FullName = "Rowan Miller" }
             //    );
             //
+            context.ContentLookups.AddOrUpdate(x => x.Id,
+                new ContentLookup { Id = 1, LookupName = "Image", CreatedOn = DateTime.Now }, new ContentLookup { Id = 2, LookupName = "Music", CreatedOn = DateTime.Now });
         }
     }
 }
