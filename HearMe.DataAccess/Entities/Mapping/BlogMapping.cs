@@ -1,6 +1,6 @@
 ﻿namespace HearMe.DataAccess.Entities.Mapping
 {
-    internal class BlogMapping : HearMeBaseMapping<Blog>
+    internal class BlogMapping : BaseMapping<int, Blog>
     {
         internal BlogMapping()
         {

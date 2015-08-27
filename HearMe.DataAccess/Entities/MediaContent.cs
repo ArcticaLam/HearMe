@@ -1,6 +1,6 @@
 ﻿namespace HearMe.DataAccess.Entities
 {
-    public class MediaContent : HearMeBaseEntity
+    public class MediaContent : BaseEntity<int>
     {
         public string ContentPhysicalPath { get; set; }
         public int ContentTypeId { get; set; }

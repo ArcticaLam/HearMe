@@ -2,7 +2,7 @@
 
 namespace HearMe.DataAccess.Entities.Mapping
 {
-    internal class ContentLookUpMapping : HearMeBaseMapping<ContentLookup>
+    internal class ContentLookUpMapping : BaseMapping<int, ContentLookup>
     {
         public ContentLookUpMapping()
         {

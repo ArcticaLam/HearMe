@@ -2,7 +2,7 @@
 
 namespace HearMe.DataAccess.Entities
 {
-    public class Category : HearMeBaseEntity
+    public class Category : BaseEntity<int>
     {
         public string CategoryName { get; set; }
 

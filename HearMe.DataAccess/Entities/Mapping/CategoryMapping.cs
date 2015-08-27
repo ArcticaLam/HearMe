@@ -1,6 +1,6 @@
 ﻿namespace HearMe.DataAccess.Entities.Mapping
 {
-    internal class CategoryMapping : HearMeBaseMapping<Category>
+    internal class CategoryMapping : BaseMapping<int, Category>
     {
         public CategoryMapping()
         {

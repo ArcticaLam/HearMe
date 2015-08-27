@@ -1,6 +1,6 @@
 ﻿namespace HearMe.DataAccess.Entities.Mapping
 {
-    internal class MediaContentMapping : HearMeBaseMapping<MediaContent>
+    internal class MediaContentMapping : BaseMapping<int, MediaContent>
     {
         public MediaContentMapping()
         {

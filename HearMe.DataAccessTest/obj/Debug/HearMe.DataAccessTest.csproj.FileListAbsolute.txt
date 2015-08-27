@@ -1,0 +1,5 @@
+C:\Users\Hiep.LamTang.CTCPLC\Desktop\HearMe-master\HearMe.DataAccessTest\bin\Debug\HearMe.DataAccessTest.dll
+C:\Users\Hiep.LamTang.CTCPLC\Desktop\HearMe-master\HearMe.DataAccessTest\bin\Debug\HearMe.DataAccessTest.pdb
+C:\Users\Hiep.LamTang.CTCPLC\Desktop\HearMe-master\HearMe.DataAccessTest\obj\Debug\HearMe.DataAccessTest.csprojResolveAssemblyReference.cache
+C:\Users\Hiep.LamTang.CTCPLC\Desktop\HearMe-master\HearMe.DataAccessTest\obj\Debug\HearMe.DataAccessTest.dll
+C:\Users\Hiep.LamTang.CTCPLC\Desktop\HearMe-master\HearMe.DataAccessTest\obj\Debug\HearMe.DataAccessTest.pdb

@@ -8,6 +8,7 @@ namespace HearMe.DataAccess.Entities.Mapping
         public BaseMapping()
         {
             Property(x => x.Id).IsRequired().HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
+            Property(x => x.RowVersion).IsRowVersion();
         }
     }
 }

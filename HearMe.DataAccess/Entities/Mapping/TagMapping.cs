@@ -1,6 +1,6 @@
 ﻿namespace HearMe.DataAccess.Entities.Mapping
 {
-    internal class TagMapping : HearMeBaseMapping<Tag>
+    internal class TagMapping : BaseMapping<int, Tag>
     {
         public TagMapping()
         {

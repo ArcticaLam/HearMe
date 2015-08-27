@@ -1,6 +1,6 @@
 ﻿namespace HearMe.DataAccess.Entities
 {
-    public class User : HearMeBaseEntity
+    public class User : BaseEntity<int>
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }

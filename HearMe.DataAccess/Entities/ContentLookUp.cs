@@ -1,6 +1,6 @@
 ﻿namespace HearMe.DataAccess.Entities
 {
-    public class ContentLookup : HearMeBaseEntity
+    public class ContentLookup : BaseEntity<int>
     {
         public string LookupName { get; set; }
     }

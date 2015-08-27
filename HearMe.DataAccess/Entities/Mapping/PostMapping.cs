@@ -1,6 +1,6 @@
 ﻿namespace HearMe.DataAccess.Entities.Mapping
 {
-    internal class PostMapping : HearMeBaseMapping<Post>
+    internal class PostMapping : BaseMapping<int, Post>
     {
         public PostMapping()
         {

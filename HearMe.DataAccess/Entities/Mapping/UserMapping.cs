@@ -1,6 +1,6 @@
 ﻿namespace HearMe.DataAccess.Entities.Mapping
 {
-    internal class UserMapping : HearMeBaseMapping<User>
+    internal class UserMapping : BaseMapping<int,User>
     {
         public UserMapping()
         {

@@ -1,0 +1,5 @@
+C:\Users\Hiep.LamTang.CTCPLC\Desktop\HearMe-master\HearMe.Business\bin\Debug\HearMe.Business.dll
+C:\Users\Hiep.LamTang.CTCPLC\Desktop\HearMe-master\HearMe.Business\bin\Debug\HearMe.Business.pdb
+C:\Users\Hiep.LamTang.CTCPLC\Desktop\HearMe-master\HearMe.Business\obj\Debug\HearMe.Business.csprojResolveAssemblyReference.cache
+C:\Users\Hiep.LamTang.CTCPLC\Desktop\HearMe-master\HearMe.Business\obj\Debug\HearMe.Business.dll
+C:\Users\Hiep.LamTang.CTCPLC\Desktop\HearMe-master\HearMe.Business\obj\Debug\HearMe.Business.pdb
