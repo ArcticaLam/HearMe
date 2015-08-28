@@ -75,7 +75,21 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\BaseRepository.cs" />
+    <Compile Include="Repositories\BlogRepository.cs" />
+    <Compile Include="Repositories\CategoryRepository.cs" />
+    <Compile Include="Repositories\ContentLookUpRepository.cs" />
+    <Compile Include="Repositories\Contracts\IBlogRepository.cs" />
     <Compile Include="Repositories\Contracts\IRepository.cs" />
+    <Compile Include="Repositories\Contracts\ICategoryRepository.cs" />
+    <Compile Include="Repositories\Contracts\IContentLookUpRepository.cs" />
+    <Compile Include="Repositories\Contracts\IMediaContentRepository.cs" />
+    <Compile Include="Repositories\Contracts\IPostRepository.cs" />
+    <Compile Include="Repositories\Contracts\ITagRepository.cs" />
+    <Compile Include="Repositories\Contracts\IUserRepository.cs" />
+    <Compile Include="Repositories\MediaContentRepository.cs" />
+    <Compile Include="Repositories\PostRepository.cs" />
+    <Compile Include="Repositories\TagRepository.cs" />
+    <Compile Include="Repositories\UserRepository.cs" />
     <Compile Include="UnitOfWork\IUnitOfWork.cs" />
     <Compile Include="UnitOfWork\UnitOfWork.cs" />
   </ItemGroup>
