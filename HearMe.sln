@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearMe.DataAccess", "HearMe.DataAccess\HearMe.DataAccess.csproj", "{71CABDAC-00F0-4BEE-96F1-28EB62B20763}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2C847D98-D452-4B59-9BF0-C2360A47CB67}"
@@ -9,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "web", "web", "{E0C9F06D-2A3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearMe.WebAPI", "HearMe.WebAPI\HearMe.WebAPI.csproj", "{8684BA83-4CC1-4B87-AAC4-EDA5206BEFB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearMe.WebMVC", "HearMe.WebMVC\HearMe.WebMVC.csproj", "{E4184D41-9264-4878-8231-10D38C2F58BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearMe.SPA", "HearMe.SPA\HearMe.SPA.csproj", "{7DE67482-0B80-414D-BCBB-DBE3F5B51FD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +27,10 @@ Global
 		{8684BA83-4CC1-4B87-AAC4-EDA5206BEFB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8684BA83-4CC1-4B87-AAC4-EDA5206BEFB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8684BA83-4CC1-4B87-AAC4-EDA5206BEFB8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E4184D41-9264-4878-8231-10D38C2F58BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E4184D41-9264-4878-8231-10D38C2F58BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E4184D41-9264-4878-8231-10D38C2F58BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E4184D41-9264-4878-8231-10D38C2F58BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DE67482-0B80-414D-BCBB-DBE3F5B51FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DE67482-0B80-414D-BCBB-DBE3F5B51FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DE67482-0B80-414D-BCBB-DBE3F5B51FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DE67482-0B80-414D-BCBB-DBE3F5B51FD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +38,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{71CABDAC-00F0-4BEE-96F1-28EB62B20763} = {2C847D98-D452-4B59-9BF0-C2360A47CB67}
 		{8684BA83-4CC1-4B87-AAC4-EDA5206BEFB8} = {2C847D98-D452-4B59-9BF0-C2360A47CB67}
-		{E4184D41-9264-4878-8231-10D38C2F58BD} = {E0C9F06D-2A33-40CA-8A82-CBAAA1056D37}
+		{7DE67482-0B80-414D-BCBB-DBE3F5B51FD0} = {E0C9F06D-2A33-40CA-8A82-CBAAA1056D37}
 	EndGlobalSection
 EndGlobal

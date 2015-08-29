@@ -27,3 +27,9 @@ C:\Users\hieplam\Desktop\HearMe\HearMe.WebAPI\bin\System.Web.Http.WebHost.xml
 C:\Users\hieplam\Desktop\HearMe\HearMe.WebAPI\obj\Debug\HearMe.WebAPI.dll
 C:\Users\hieplam\Desktop\HearMe\HearMe.WebAPI\obj\Debug\HearMe.WebAPI.pdb
 C:\Users\hieplam\Desktop\HearMe\HearMe.WebAPI\obj\Debug\HearMe.WebAPI.csprojResolveAssemblyReference.cache
+C:\Users\hieplam\Desktop\HearMe\HearMe.WebAPI\bin\HearMe.DataAccess.dll
+C:\Users\hieplam\Desktop\HearMe\HearMe.WebAPI\bin\EntityFramework.dll
+C:\Users\hieplam\Desktop\HearMe\HearMe.WebAPI\bin\HearMe.DataAccess.pdb
+C:\Users\hieplam\Desktop\HearMe\HearMe.WebAPI\bin\EntityFramework.xml
+C:\Users\hieplam\Desktop\HearMe\HearMe.WebAPI\bin\Newtonsoft.Json.dll
+C:\Users\hieplam\Desktop\HearMe\HearMe.WebAPI\bin\Newtonsoft.Json.xml
