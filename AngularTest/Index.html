@@ -1,0 +1,55 @@
+<html ng-app='myApp'>
+<head>
+    <!-- SCROLLS -->
+    <!-- load bootstrap and fontawesome via CDN -->
+    <!--<link rel="stylesheet" href="contents/bootstrap.min.css"/>
+    <link rel="stylesheet" href="contents/font-awesome.min.css"/>
+    <link rel="stylesheet" href="contents/custom.css"/>-->
+    <link href="build/stylesheets.min.css" rel="stylesheet" />
+    <link rel="icon" href="favicon.ico" />
+    <title>Hear Me 2015</title>
+</head>
+<body ng-controller='homeController'>
+
+    <!-- HEADER AND NAVBAR -->
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/">Hear Me</a>
+                </div>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#/"><i class="fa fa-home"></i>Home</a></li>
+                    <li><a href="#about"><i class="fa fa-shield"></i>About</a></li>
+                    <li><a href="#contact"><i class="fa fa-comment"></i>Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT AND INJECTED VIEWS -->
+    <div class="container">
+        <div ng-view>
+            
+        </div>
+    </div>
+
+    <footer>
+        <div class="row">
+            <div class="col-lg-12">
+                <p>Copyright &copy; Hear Me 2015</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="build/scripts.min.js"></script>
+    <script src="build/app.min.js"></script>
+
+    <!--<script src="scripts/angular.min.js"></script>
+    <script src="scripts/angular-route.min.js"></script>
+    <script src="scripts/angular-animate.min.js"></script>
+    <script src="scripts/jquery-1.11.3.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>-->
+</body>
+</html>

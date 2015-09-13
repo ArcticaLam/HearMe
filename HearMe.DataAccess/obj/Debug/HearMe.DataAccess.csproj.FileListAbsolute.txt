@@ -25,3 +25,16 @@ C:\Users\Hiep.LamTang.CTCPLC\Desktop\HearMe-master\HearMe.DataAccess\obj\Debug\H
 C:\Users\hieplam\Desktop\HearMe\HearMe.DataAccess\bin\Debug\Autofac.dll
 C:\Users\hieplam\Desktop\HearMe\HearMe.DataAccess\bin\Debug\Autofac.xml
 C:\Users\hieplam\Desktop\HearMe\HearMe.DataAccess\obj\Debug\HearMe.DataAccess.csprojResolveAssemblyReference.cache
+D:\HearMe\HearMe.DataAccess\bin\Debug\HearMe.DataAccess.dll.config
+D:\HearMe\HearMe.DataAccess\bin\Debug\HearMe.DataAccess.dll
+D:\HearMe\HearMe.DataAccess\bin\Debug\HearMe.DataAccess.pdb
+D:\HearMe\HearMe.DataAccess\bin\Debug\Autofac.dll
+D:\HearMe\HearMe.DataAccess\bin\Debug\EntityFramework.dll
+D:\HearMe\HearMe.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\HearMe\HearMe.DataAccess\bin\Debug\Autofac.xml
+D:\HearMe\HearMe.DataAccess\bin\Debug\EntityFramework.xml
+D:\HearMe\HearMe.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\HearMe\HearMe.DataAccess\obj\Debug\HearMe.DataAccess.Migrations.InitDatabase.resources
+D:\HearMe\HearMe.DataAccess\obj\Debug\HearMe.DataAccess.csproj.GenerateResource.Cache
+D:\HearMe\HearMe.DataAccess\obj\Debug\HearMe.DataAccess.dll
+D:\HearMe\HearMe.DataAccess\obj\Debug\HearMe.DataAccess.pdb

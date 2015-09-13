@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net46": {
+      "wrappedProject": "../../HearMe.DataAccess/HearMe.DataAccess.csproj",
+      "bin": {
+        "assembly": "../../HearMe.DataAccess/obj/{configuration}/HearMe.DataAccess.dll",
+        "pdb": "../../HearMe.DataAccess/obj/{configuration}/HearMe.DataAccess.pdb"
+      },
+      "dependencies": {
+        "Autofac": "3.5.2",
+        "EntityFramework": "6.1.3"
+      }
+    },
+    "net452": {
+      "wrappedProject": "../../HearMe.DataAccess/HearMe.DataAccess.csproj",
+      "bin": {
+        "assembly": "../../HearMe.DataAccess/obj/{configuration}/HearMe.DataAccess.dll",
+        "pdb": "../../HearMe.DataAccess/obj/{configuration}/HearMe.DataAccess.pdb"
+      },
+      "dependencies": {
+        "Autofac": "3.5.2",
+        "EntityFramework": "6.1.3"
+      }
+    },
+    "net451": {
+      "wrappedProject": "../../HearMe.DataAccess/HearMe.DataAccess.csproj",
+      "bin": {
+        "assembly": "../../HearMe.DataAccess/obj/{configuration}/HearMe.DataAccess.dll",
+        "pdb": "../../HearMe.DataAccess/obj/{configuration}/HearMe.DataAccess.pdb"
+      },
+      "dependencies": {
+        "Autofac": "3.5.2",
+        "EntityFramework": "6.1.3"
+      }
+    }
+  }
+}

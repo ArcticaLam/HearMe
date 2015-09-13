@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22823.1
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearMe.DataAccess", "HearMe.DataAccess\HearMe.DataAccess.csproj", "{71CABDAC-00F0-4BEE-96F1-28EB62B20763}"
 EndProject
@@ -9,9 +9,28 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2C847D98-D45
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "web", "web", "{E0C9F06D-2A33-40CA-8A82-CBAAA1056D37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearMe.WebAPI", "HearMe.WebAPI\HearMe.WebAPI.csproj", "{8684BA83-4CC1-4B87-AAC4-EDA5206BEFB8}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AngularTest(1)", "AngularTest\", "{236E84F8-9639-4D1D-87B2-488369301669}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_23520"
+		Debug.AspNetCompiler.PhysicalPath = "AngularTest\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_23520\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_23520"
+		Release.AspNetCompiler.PhysicalPath = "AngularTest\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_23520\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "23520"
+		SlnRelativePath = "AngularTest\"
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearMe.SPA", "HearMe.SPA\HearMe.SPA.csproj", "{7DE67482-0B80-414D-BCBB-DBE3F5B51FD0}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HearMeAPI", "HearMeAPI\HearMeAPI.xproj", "{078FEC1F-C7D6-4EEF-8ED9-2C6382140C9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,21 +42,21 @@ Global
 		{71CABDAC-00F0-4BEE-96F1-28EB62B20763}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71CABDAC-00F0-4BEE-96F1-28EB62B20763}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71CABDAC-00F0-4BEE-96F1-28EB62B20763}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8684BA83-4CC1-4B87-AAC4-EDA5206BEFB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8684BA83-4CC1-4B87-AAC4-EDA5206BEFB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8684BA83-4CC1-4B87-AAC4-EDA5206BEFB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8684BA83-4CC1-4B87-AAC4-EDA5206BEFB8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7DE67482-0B80-414D-BCBB-DBE3F5B51FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7DE67482-0B80-414D-BCBB-DBE3F5B51FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7DE67482-0B80-414D-BCBB-DBE3F5B51FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7DE67482-0B80-414D-BCBB-DBE3F5B51FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{236E84F8-9639-4D1D-87B2-488369301669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{236E84F8-9639-4D1D-87B2-488369301669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{236E84F8-9639-4D1D-87B2-488369301669}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{236E84F8-9639-4D1D-87B2-488369301669}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{078FEC1F-C7D6-4EEF-8ED9-2C6382140C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{078FEC1F-C7D6-4EEF-8ED9-2C6382140C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{078FEC1F-C7D6-4EEF-8ED9-2C6382140C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{078FEC1F-C7D6-4EEF-8ED9-2C6382140C9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{71CABDAC-00F0-4BEE-96F1-28EB62B20763} = {2C847D98-D452-4B59-9BF0-C2360A47CB67}
-		{8684BA83-4CC1-4B87-AAC4-EDA5206BEFB8} = {2C847D98-D452-4B59-9BF0-C2360A47CB67}
-		{7DE67482-0B80-414D-BCBB-DBE3F5B51FD0} = {E0C9F06D-2A33-40CA-8A82-CBAAA1056D37}
+		{236E84F8-9639-4D1D-87B2-488369301669} = {E0C9F06D-2A33-40CA-8A82-CBAAA1056D37}
+		{078FEC1F-C7D6-4EEF-8ED9-2C6382140C9E} = {2C847D98-D452-4B59-9BF0-C2360A47CB67}
 	EndGlobalSection
 EndGlobal

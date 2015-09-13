@@ -1,6 +1,0 @@
-C:\Users\hieplam\Desktop\HearMe\HearMe.SPA\bin\HearMe.SPA.dll.config
-C:\Users\hieplam\Desktop\HearMe\HearMe.SPA\bin\HearMe.SPA.dll
-C:\Users\hieplam\Desktop\HearMe\HearMe.SPA\bin\HearMe.SPA.pdb
-C:\Users\hieplam\Desktop\HearMe\HearMe.SPA\obj\Debug\HearMe.SPA.csprojResolveAssemblyReference.cache
-C:\Users\hieplam\Desktop\HearMe\HearMe.SPA\obj\Debug\HearMe.SPA.dll
-C:\Users\hieplam\Desktop\HearMe\HearMe.SPA\obj\Debug\HearMe.SPA.pdb
