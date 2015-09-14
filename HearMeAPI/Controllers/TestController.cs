@@ -8,7 +8,7 @@ using Microsoft.AspNet.Mvc;
 namespace HearMeAPI.Controllers
 {
     [Route("api/[controller]")]
-    public class HomeController : Controller
+    public class TestController : Controller
     {
         private List<TestItem> items = new List<TestItem>
         {
