@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearMe.DataAccess", "HearMe.DataAccess\HearMe.DataAccess.csproj", "{71CABDAC-00F0-4BEE-96F1-28EB62B20763}"
 EndProject
@@ -30,7 +30,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AngularTest(1)", "AngularTe
 		SlnRelativePath = "AngularTest\"
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HearMeAPI", "HearMeAPI\HearMeAPI.xproj", "{078FEC1F-C7D6-4EEF-8ED9-2C6382140C9E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearMeAPI", "HearMeAPI\HearMeAPI.csproj", "{50BEC3EA-6282-4D9B-AF05-295E6773EF90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,10 +46,10 @@ Global
 		{236E84F8-9639-4D1D-87B2-488369301669}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{236E84F8-9639-4D1D-87B2-488369301669}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{236E84F8-9639-4D1D-87B2-488369301669}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{078FEC1F-C7D6-4EEF-8ED9-2C6382140C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{078FEC1F-C7D6-4EEF-8ED9-2C6382140C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{078FEC1F-C7D6-4EEF-8ED9-2C6382140C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{078FEC1F-C7D6-4EEF-8ED9-2C6382140C9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50BEC3EA-6282-4D9B-AF05-295E6773EF90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50BEC3EA-6282-4D9B-AF05-295E6773EF90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50BEC3EA-6282-4D9B-AF05-295E6773EF90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50BEC3EA-6282-4D9B-AF05-295E6773EF90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +57,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{71CABDAC-00F0-4BEE-96F1-28EB62B20763} = {2C847D98-D452-4B59-9BF0-C2360A47CB67}
 		{236E84F8-9639-4D1D-87B2-488369301669} = {E0C9F06D-2A33-40CA-8A82-CBAAA1056D37}
-		{078FEC1F-C7D6-4EEF-8ED9-2C6382140C9E} = {2C847D98-D452-4B59-9BF0-C2360A47CB67}
+		{50BEC3EA-6282-4D9B-AF05-295E6773EF90} = {2C847D98-D452-4B59-9BF0-C2360A47CB67}
 	EndGlobalSection
 EndGlobal

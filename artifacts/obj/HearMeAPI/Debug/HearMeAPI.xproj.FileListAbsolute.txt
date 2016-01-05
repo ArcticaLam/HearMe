@@ -1,1 +1,2 @@
 D:\HearMe\artifacts\obj\HearMeAPI\Debug\HearMeAPI.xprojResolveAssemblyReference.cache
+C:\Users\Hiep\Desktop\HearMe-master\artifacts\obj\HearMeAPI\Debug\HearMeAPI.xprojResolveAssemblyReference.cache

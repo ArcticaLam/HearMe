@@ -1,5 +1,6 @@
 ﻿angular.module('myApp').factory('testFactory', ['$http', function ($http) {
-    var baseUrl = 'api/test';
+    
+    var baseUrl = 'localhost:1609/api/test';
     var dataFactory = {};
 
     dataFactory.getAllTestItem = function() {
